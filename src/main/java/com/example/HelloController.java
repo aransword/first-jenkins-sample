@@ -18,6 +18,6 @@ public class HelloController {
 
     @GetMapping("/asdf")
     public String jenkTest() {
-        return "Test0";
+        return "Test1";
     }
 }
