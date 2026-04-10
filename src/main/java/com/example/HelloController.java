@@ -15,4 +15,9 @@ public class HelloController {
     public String jenkinsTest() {
         return "Test Success1";
     }
+
+    @GetMapping("/asdf")
+    public String jenkTest() {
+        return "Test0";
+    }
 }
