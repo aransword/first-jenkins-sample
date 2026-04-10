@@ -13,6 +13,6 @@ public class HelloController {
 
     @GetMapping("/test")
     public String jenkinsTest() {
-        return "Test Success";
+        return "Test Success1";
     }
 }
